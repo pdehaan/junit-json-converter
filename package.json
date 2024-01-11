@@ -1,18 +1,27 @@
 {
   "name": "junit-json-converter",
-  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node index"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pdehaan/junit-json-converter/issues"
+  },
   "dependencies": {
     "fast-glob": "^3.3.2",
     "fast-xml-parser": "^4.3.3",
     "zod": "^3.22.4"
-  }
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/junit-json-converter#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/junit-json-converter.git"
+  },
+  "scripts": {
+    "test": "node index"
+  },
+  "type": "module"
 }
